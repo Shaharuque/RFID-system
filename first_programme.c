@@ -16,6 +16,8 @@ int mul(int num1, int num2) {
    return (num3);
 }
 
+
+
 int main() {
    int num1, num2, res;
  
@@ -33,3 +35,11 @@ int main() {
    printf("ndivision of two number is : ",res2);
    return (0);
 }
+
+int div(int num1, int num2) {
+   int num3;
+   num3 = num1 / num2;
+   return (num3);
+}
+
+
